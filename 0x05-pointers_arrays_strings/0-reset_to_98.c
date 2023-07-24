@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  * reset_to_98 - Takes a pointere to an int and updates
