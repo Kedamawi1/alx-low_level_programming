@@ -9,7 +9,12 @@ void puts_half(char *str)
 {
 	int a, n, longi;
 
+<<<<<<< HEAD
 	longi = 0;
+=======
+        while (s[index++])
+        len++;
+>>>>>>> 9b70fac05e21d1636997c7725f99b19b50f51662
 
 	for (a = 0; str[a] != '\0'; a++)
  
