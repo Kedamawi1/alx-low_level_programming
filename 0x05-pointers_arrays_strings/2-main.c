@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-#ifndef MAIN_H
-
 /**
  * main - check the code
  *
