@@ -1,21 +1,24 @@
 #include "main.h"
+
 /**
- * puts_half - a function that prints half of a string
- * if odd len, n = (length_of_the_string - 1) / 2
- * @str: input
- * Return: half of input
+ * rev_string - Reverses a string
+ * @s: Input string
+ * Return: String in reverse
  */
-void puts_half(char *str)
+
+void rev_string(char *s)
 {
-	int a, n, longi;
+	char rev = s[0];
+	int counter = 0;
+	int i;
 
-<<<<<<< HEAD
-	longi = 0;
-=======
-        while (s[index++])
-        len++;
->>>>>>> 9b70fac05e21d1636997c7725f99b19b50f51662
-
-	for (a = 0; str[a] != '\0'; a++)
- 
+	while (s[counter] != '\0')
+	counter++;
+	for (i = 0; i < counter; i++)
+	{
+		counter--;
+		rev = s[i];
+		s[i] = s[counter];
+		s[counter] = rev;
+	}
 }
